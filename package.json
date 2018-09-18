@@ -1,7 +1,7 @@
 {
   "name": "yfd-aliyun-sdk",
   "description": "Aliyun SDK for JavaScript",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": {
     "name": "chylvina",
     "email": "chylvina@gmail.com"

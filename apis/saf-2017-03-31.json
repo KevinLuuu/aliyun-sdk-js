@@ -1,0 +1,37 @@
+{
+  "format": "pop",
+  "apiVersion": "2017-03-31",
+  "checksumFormat": "md5",
+  "endpointPrefix": "saf",
+  "serviceAbbreviation": "SAF",
+  "serviceFullName": "Aliyun SAF",
+  "signatureVersion": "pop",
+  "timestampFormat": "top",
+  "xmlnamespace": "",
+  "operations": {
+    "executeRequest": {
+      "name": "ExecuteRequest",
+      "http": {
+        "method": "POST",
+        "uri": "/"
+      },
+      "input": {
+        "type": "structure",
+        "members": {
+          "Action": {
+            "required": true,
+            "default": "ExecuteRequest"
+          },
+          "ServiceParameters": {
+            "required": true,
+            "type": "string"
+          },
+          "Service": {
+            "required": true,
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
